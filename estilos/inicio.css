@@ -1,0 +1,213 @@
+.barra-navegacion {
+    background-color: black;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.columna-izquierda > .logo img {
+    width: 200px;
+    padding: 10px;
+    padding-right: 40px;
+}
+
+.columna-central {
+    padding: 10px;
+}
+
+.columna-central > .explore {
+    color: yellow;
+    font-family: 'Lato', sans-serif;
+}
+
+.columna-central > .barra-tareas-links {
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.columna-central > .barra-tareas-links > .nav-link a {
+    font-family: 'Lato', sans-serif;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.columna-central > .barra-tareas-links > .nav-link a:hover {
+    color: purple;
+}
+
+.barra-navegacion > .columna-derecha {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-shrink: 0.5em;
+}
+
+.barra-navegacion > .columna-derecha > .boton-create{
+    margin-right: 20px;
+}
+.barra-navegacion > .columna-derecha > .boton-create a{
+    border: 1px solid black; 
+    padding: 10px 20px; 
+    background-color: #696969; 
+    color: white; 
+    font-family: 'Lato', sans-serif; 
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.barra-navegacion > .columna-derecha > .boton-create a:hover{
+color: purple;
+}
+
+.barra-navegacion > .columna-derecha > .lupa a {
+    color: #696969;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.barra-navegacion > .columna-derecha > .lupa a:hover{
+    color: purple;
+}
+
+.barra-navegacion > .columna-derecha > .boton-login {
+    margin-right: 20px;
+}
+
+.barra-navegacion > .columna-derecha > .boton-login a {
+    border: 1px solid black; 
+    padding: 10px 20px; 
+    background-color: #696969; 
+    color: white; 
+    text-decoration: none; 
+    font-family: 'Lato', sans-serif; 
+    border-radius: 5px; 
+    transition: 0.5s;
+}
+
+.barra-navegacion > .columna-derecha > .boton-login a:hover{
+    color: purple;
+}
+
+.barra-navegacion > .columna-derecha > .boton-nav-singup a {
+    border: 1px solid black; 
+    padding: 10px 20px; 
+    background-color: #696969; 
+    color: white;
+    text-decoration: none; 
+    font-family: 'Lato', sans-serif; 
+    border-radius: 5px; 
+    transition: 0.5s;
+}
+
+.barra-navegacion > .columna-derecha > .boton-nav-singup a:hover{
+    color: purple;
+}
+
+.interior {
+    padding: 50px;
+    background: rgb(0,0,0);
+    background: linear-gradient(294deg, rgba(0,0,0,1) 0%, rgba(169,169,203,1) 100%, rgba(0,212,255,1) 100%);
+    font-family: 'Lato', sans-serif;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interior > .parte-interior-izquierda {
+    margin-right: 100px;
+}
+
+.interior > .parte-interior-izquierda .texto-descripcion {
+    margin-bottom: 60px;
+}
+
+.interior > .parte-interior-izquierda > .botones-bajotexto {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.interior > .parte-interior-izquierda > .botones-bajotexto > .boton-bajotexto-singup {
+    padding-right: 20px;
+}
+
+.interior > .parte-interior-izquierda > .botones-bajotexto > .boton-bajotexto-singup a {
+    border: 1px solid transparent; 
+    padding: 10px; 
+    background-color: #58D68D; 
+    color: black; 
+    text-decoration: none; 
+    font-family: 'Lato', sans-serif; 
+    border-radius: 3px; 
+    transition: 0.3s;
+}
+
+.interior > .parte-interior-izquierda > .botones-bajotexto > .boton-bajotexto-singup a:hover {
+    color: purple;
+}
+
+.interior > .parte-interior-izquierda > .botones-bajotexto > .boton-bajotexto-learn a {
+    border: 1px solid transparent; 
+    padding: 10px; 
+    background-color: black; 
+    color: white; 
+    text-decoration: none; 
+    font-family: 'Lato', sans-serif; 
+    border-radius: 3px; 
+    transition: 0.3s;
+}
+
+.interior > .parte-interior-izquierda > .botones-bajotexto > .boton-bajotexto-learn a:hover {
+    color:purple;
+}
+
+.interior > .parte-interior-derecha img {
+    width: 100%;
+    padding-left: 5px;
+}
+
+
+.pie {
+    background-color: #696969;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pie a {
+    background-color: #696969;
+    font-weight: 900;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+
+
+.pie > .pie-teams {
+    border-width: 5px;
+    border-style: solid;
+    border-color: gray;
+}
+.pie > .pie-education {
+    border-width: 3px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.pie > .pie-privacity {
+    border-width: 3px;
+    border-style: solid;
+    border-color: gray;
+}
+
+.pie > .pie-writing {
+    border-width: 3px;
+    border-style: solid;
+    border-color: gray;
+}
